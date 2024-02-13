@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   final id = TextEditingController();
   final password = TextEditingController();
-
+  final String random = "one";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
